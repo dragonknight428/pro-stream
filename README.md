@@ -1,10 +1,4 @@
-[<img src="./images/logo.png" width="400" height="200"/>](./images/logo.png)
-
 # StreamBase Library
-[![Build And Sonar scan](https://github.com/eclipse-ecsp/streambase/actions/workflows/maven-build.yml/badge.svg)](https://github.com/eclipse-ecsp/streambase/actions/workflows/maven-build.yml)
-[![License Compliance](https://github.com/eclipse-ecsp/streambase/actions/workflows/license-compliance.yml/badge.svg)](https://github.com/eclipse-ecsp/streambase/actions/workflows/license-compliance.yml)
-[![Deployment](https://github.com/eclipse-ecsp/streambase/actions/workflows/maven-deploy.yml/badge.svg)](https://github.com/eclipse-ecsp/streambase/actions/workflows/maven-deploy.yml)
-
 `streambase` library is an enabler for event driven processing and provides a layer of abstraction for messaging brokers such as kafka-streams while providing portability.
 It allows to bootstrap a stream processing application using the Kafka Streams API.
 It provides device messaging capability to the services using MQTT protocol, including the ability to switch between Paho MQTT client and HiveMQ client. It also provides the capability to use TLS for secure communication with the MQTT broker.
@@ -302,71 +296,3 @@ dma.enabled=false
 scheduler.enabled=false
 ```
 
-
-## Built With Dependencies
-
-| Dependency                                                                                                                                                 | Purpose                                                           |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------|
-| [NoSQL DAO](https://github.com/eclipse-ecsp/nosql-dao)                                                                                                     | NoSQL DAO capabilities                                            |
-| [Cache Enabler](https://github.com/eclipse-ecsp/cache-enabler)                                                                                             | Redis caching capabilities                                        |
-| [Paho Client](https://eclipse.dev/paho/)                                                                                                                   | MQTT Paho Client                                                  |
-| [Moquette Broker](https://github.com/moquette-io/moquette)                                                                                                 | Java MQTT Broker                                                  |
-| [HiveMQ Mqtt client](https://www.hivemq.com/mqtt/mqtt-client-library-encyclopedia/)                                                                        | HiveMQ client for MQTT                                            |
-| [Vehicle Profile Entities]()                                                                                                                               | Morphia entities library for Vehicle Profile                      |
-| [Kafka Streams](https://kafka.apache.org/documentation/streams/#:~:text=Kafka%20Streams%20is%20a%20client,Kafka's%20server%2Dside%20cluster%20technology.) | For creating kafka streams application                            |
-| [Kafka Clients](https://kafka.apache.org/documentation/streams/#:~:text=Kafka%20Streams%20is%20a%20client,Kafka's%20server%2Dside%20cluster%20technology.) | For providing kafka client capabilities                           |
-| [Kafka 2.13](https://kafka.apache.org/downloads)                                                                                                           | Core kafka capabilities                                           |
-| [Kryo](https://github.com/EsotericSoftware/kryo)                                                                                                           | binary object graph serialization framework for Java              |
-| [Zookeeper](https://zookeeper.apache.org/)                                                                                                                 | Enables highly reliable distributed coordination in kafka cluster |
-| [Embedded Redis](https://github.com/kstyrc/embedded-redis)                                                                                                 | The library to implement database entities                        |
-| [okhttp](https://square.github.io/okhttp/)                                                                                                                 | HTTP client library                                               |
-| [Mock Web Server](https://github.com/square/okhttp/tree/master/mockwebserver)                                                                              | A scriptable web server for testing HTTP clients                  |
-| [Maven](https://maven.apache.org/)                                                                                                                         | Dependency Management                                             |
-| [Junit](https://junit.org/junit5/)                                                                                                                         | Testing framework                                                 |
-| [Mockito](https://site.mockito.org/)                                                                                                                       | Test Mocking framework                                            |
-
-## How to contribute
-
-Please read [CONTRIBUTING.md](./CONTRIBUTING.md) for details on our contribution guidelines, and the process for submitting pull requests to us.
-
-## Code of Conduct
-
-Please read [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md) for details on our code of conduct.
-
-## Authors
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tbody>
-    <tr>
-	  <td align="center" valign="top" width="14.28%"><a href="https://github.com/kaushalaroraharman"><img src="https://github.com/kaushalaroraharman.png" width="100px;" alt="Kaushal Arora"/><br /><sub><b>Kaushal Arora</b></sub></a><br /><a href="https://github.com/all-contributors/all-contributors/commits?author=kaushalaroraharman" title="Code and Documentation">📖</a> <a href="https://github.com/all-contributors/all-contributors/pulls?q=is%3Apr+reviewed-by%3Akaushalaroraharman" title="Reviewed Pull Requests">👀</a></td>
-    </tr>
-	<tr>
-	  <td align="center" valign="top" width="14.28%"><a href="https://github.com/ihussainbadshah"><img src="https://github.com/ihussainbadshah.png" width="100px;" alt="Hussain Badshah"/><br /><sub><b>Hussain Badshah</b></sub></a><br /><a href="https://github.com/all-contributors/all-contributors/commits?author=ihussainbadshah" title="Code and Documentation">📖</a> <a href="https://github.com/all-contributors/all-contributors/pulls?q=is%3Apr+reviewed-by%3Aihussainbadshah" title="Reviewed Pull Requests">👀</a></td>
-    </tr>
-  </tbody>
-</table>
-
-See also the list of [contributors](https://github.com/eclipse-ecsp/streambase/graphs/contributors) who participated in this project.
-
-## Security Contact Information
-
-Please read [SECURITY.md](./SECURITY.md) to raise any security related issues.
-
-## Support
-Please write to us at [csp@harman.com](mailto:csp@harman.com)
-
-## Troubleshooting
-
-Please read [CONTRIBUTING.md](./CONTRIBUTING.md) for details on how to raise an issue and submit a pull request to us.
-
-## License
-
-This project is licensed under the Apache-2.0 License - see the [LICENSE.md](./LICENSE.md) file for details.
-
-## Announcements
-
-All updates to this library are documented in our [Release notes](./release_notes.txt) and [releases](https://github.com/eclipse-ecsp/streambase/releases)
-For the versions available, see the [tags on this repository](https://github.com/eclipse-ecsp/streambase/tags).
