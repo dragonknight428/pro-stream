@@ -91,7 +91,7 @@
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <kafka.version>3.9.1</kafka.version>
-        <zookeeper.version>3.8.4</zookeeper.version>
+        <zookeeper.version>3.10.0</zookeeper.version>
         <junit.version>5.11.4</junit.version>
         <jackson.version>2.15.3</jackson.version>
         <slf4j.version>2.0.13</slf4j.version>
