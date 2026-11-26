@@ -178,7 +178,7 @@
             --add-opens java.base/java.time=ALL-UNNAMED
         </java.25.options>
 
-        <maven-gpg-plugin.version>3.1.0</maven-gpg-plugin.version>
+        <maven-gpg-plugin.version>3.2.8</maven-gpg-plugin.version>
         <license-tool-plugin.version>1.1.0</license-tool-plugin.version>
         <install-plugin.version>3.1.1</install-plugin.version>
     </properties>
